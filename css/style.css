@@ -1,0 +1,64 @@
+body {
+    font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav, 
+#menu-checkbox {
+    display: none;
+}
+#menu-checkbox:checked ~ nav{
+    display: block;
+}
+nav a {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+ }
+
+ nav {
+    position: absolute;
+    background: rgb(56, 56, 56);
+    left: 0px;
+ }
+
+ header {
+    position: relative;
+    background: rgb(56, 56, 56);
+    color: #fff;
+    padding: 10px;
+    font-size: 1.5rem
+ }
+
+ @media(min-width: 600px){
+    nav{
+        display: block;
+        position: static;
+
+    }
+    .hamburger-icon{
+      display: none;
+    }
+    .hamburger-icon {
+      display:none
+   }
+   nav a {
+      display: inline-block;
+   }
+    
+ }
+
+ 
+
+
+
+ img {
+    max-width: 300px;
+ }
+
+ header {
+    background-image : url(/assets/william-bout-264826.jpg);
+     min-height: 800px;
+    background-repeat :none;
+    background-size: cover  
+ }

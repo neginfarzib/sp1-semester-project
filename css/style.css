@@ -8,24 +8,28 @@ nav,
     display: none;
 }
 
+#menu-checkbox:checked ~ nav{
+   display: block;
+}
+
 nav a {
     display: block;
     color: white;
     padding: 10px 20px;
-    font-size: 1rem;
  }
 
  nav {
    position: absolute;
-   background: red;
-   left: 0px;
+   background-color: #ADA9A9;
+   font-size: 1rem;
+   padding-left: 20px;
+   padding-right: 20px;
  }
 
- 
+
 .logo {
    display: none;
-   width: 40px; 
-   height: auto; 
+   height: 50px; 
    margin-right: 15px; 
  }
  
@@ -37,9 +41,7 @@ nav a {
 
  header {
     position: relative;
-    background: gold;
     color: #fff;
-    padding: 10px;
     font-size: 1.5rem
  }
 
@@ -71,4 +73,11 @@ header h1 {
     max-width: 300px;
  }
 
+.section-home-background{
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   margin-bottom: 3%;
+   background-image: url(/assets/william-bout-264826.jpg);
+}
  

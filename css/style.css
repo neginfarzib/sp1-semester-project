@@ -1,14 +1,13 @@
 body {
     font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
 }
 
 nav, 
 #menu-checkbox {
     display: none;
 }
-#menu-checkbox:checked ~ nav{
-    display: block;
-}
+
 nav a {
     display: block;
     color: white;
@@ -17,14 +16,28 @@ nav a {
  }
 
  nav {
-    position: absolute;
-    background: rgb(56, 56, 56);
-    left: 0px;
+   position: absolute;
+   background: red;
+   left: 0px;
+ }
+
+ 
+.logo {
+   display: none;
+   width: 40px; 
+   height: auto; 
+   margin-right: 15px; 
+ }
+ 
+ .flex-container-space-between{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
  }
 
  header {
     position: relative;
-    background: rgb(56, 56, 56);
+    background: gold;
     color: #fff;
     padding: 10px;
     font-size: 1.5rem
@@ -32,23 +45,25 @@ nav a {
 
  @media(min-width: 600px){
     nav{
-        display: block;
         position: static;
-
     }
     .hamburger-icon{
       display: none;
     }
-    .hamburger-icon {
-      display:none
-   }
+
+   .logo{
+      display: block;
+    }
    nav a {
       display: inline-block;
    }
     
  }
 
- 
+
+header h1 {
+   font-size: 16px;
+}
 
 
 
@@ -56,9 +71,4 @@ nav a {
     max-width: 300px;
  }
 
- header {
-    background-image : url(/assets/william-bout-264826.jpg);
-     min-height: 800px;
-    background-repeat :none;
-    background-size: cover  
- }
+ 

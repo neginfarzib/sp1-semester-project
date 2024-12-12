@@ -122,4 +122,58 @@ nav a {
 
  section{
    margin-bottom: 100px;
+
+ }
+ footer{
+   background-color: #053541 ;
+ }
+ 
+ .footercontainer{
+   left: 0;
+   bottom: 0;
+   display: flex;
+   width: 100%;
+   padding: 20px;
+   background-color: #3B515E;
+   border: 10 sol id;
+   justify-content: space-between;
+ }
+ 
+ .socialicons{
+   display: flex;
+   justify-content: center;
+ 
+ }
+ 
+ .socialicons a img{
+   height: 20px;
+   width: 20px;
+   margin: 2px;
+ }
+ 
+ .socialicons a:hover i{
+   color: beige;
+   transition:0.5s ;
+ }
+ 
+ .footernav{
+   display: flex;
+ }
+ 
+ .footernav ul{
+   align-items:center ;
+ }
+ 
+ .footernav ul li{
+   list-style: none;
+   color: white;
+ }
+ 
+ .footernav ul li a{
+   color: white; font-size: 10px;  margin-right: 25px;
+ }
+ 
+ 
+ .footerbottom{
+   background-color: aquamarine;
  }

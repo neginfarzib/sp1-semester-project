@@ -125,6 +125,21 @@ nav a {
    
  }
 
+.img-box {
+   max-width: 500px;
+}
+
+@media (max-width: 1000px) {
+   .row{
+      flex-wrap: wrap;
+      justify-content: center;   
+   }
+
+   .img-box, .p-box {
+      max-width: 300px;
+   }
+   
+}   
  .p-box {
    display: block;
    width: 500px; 

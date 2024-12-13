@@ -138,10 +138,23 @@ nav a {
    .img-box, .p-box {
       max-width: 300px;
    }
-.p-box-event{
-   max-width: 300px;
-   margin: 0px;
-}
+
+   section .p-box-event{
+      width: 300px;
+      font-size: 1rem;
+      margin: 10px auto;
+   }
+
+   section .img-box-event{
+      width: 300px;
+      margin: 10px auto;
+   }
+
+   section .div-event-revers{
+      display: flex;
+      justify-content: center;
+   }
+
 }   
 
 

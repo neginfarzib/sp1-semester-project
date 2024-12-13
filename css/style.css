@@ -138,8 +138,13 @@ nav a {
    .img-box, .p-box {
       max-width: 300px;
    }
-   
+.p-box-event{
+   max-width: 300px;
+   margin: 0px;
+}
 }   
+
+
  .p-box {
    display: block;
    width: 500px; 
@@ -148,6 +153,24 @@ nav a {
    overflow-wrap: break-word;
    line-height: 1.5;
  }
+
+ .p-box-event {
+   display: block;
+   width: 800px; 
+   margin-left: 200px;
+   word-wrap: break-word; 
+   overflow-wrap: break-word;
+   line-height: 1.5;
+ }
+
+.div-event-revers{
+   display: flex;
+   flex-direction: row-reverse;
+}
+ .img-box-event {
+   max-width: 800px;
+   margin-right: 200px;
+}
 
  .h4-box{
    display: block;

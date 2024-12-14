@@ -25,6 +25,7 @@ nav a {
    font-size: 1rem;
    padding-left: 20px;
    padding-right: 20px;
+   z-index: 1000;
  }
 
  #community-science-museum{
@@ -210,6 +211,9 @@ nav a {
 }
 
 @media (max-width: 1000px) {
+   body{
+      font-size: 1rem;
+   }
    .row{
       flex-wrap: wrap;
       justify-content: center;   
@@ -226,7 +230,6 @@ nav a {
 
    section .p-box-event{
       width: 300px;
-      font-size: 1rem;
       margin: 10px auto;
    }
 
@@ -250,6 +253,20 @@ nav a {
       background-position: center;
       height: 500px; 
    }
+
+   .h1-exhibition{
+      transform: translate(10%, 20%); 
+      font-size: x-large;
+      width: 300px;
+   }
+
+ .p-biolohgy-box {
+   margin-left: 0 !important;
+   margin: 0 auto !important; 
+ }
+ .footr-column{
+   margin: 10px;
+ }
 
 }   
 

@@ -182,11 +182,24 @@ nav a {
    justify-content: center;
    margin: 0 auto;
 }
+.row-footer{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   margin: 0 auto;
+}
 
 .column{
    flex: 50.00%;
    padding: 5px;
    margin: 5px;
+   
+ }
+
+.footr-column{
+   flex: 100.00%;
+   padding: 5px;
+   margin: 50px;
    
  }
 
@@ -297,19 +310,10 @@ nav a {
 
  }
  footer{
-   background-color: #053541 ;
+   background-color: #D9D9D9 ;
  }
  
- .footercontainer{
-   left: 0;
-   bottom: 0;
-   display: flex;
-   width: 100%;
-   padding: 20px;
-   background-color: #662626;
-   border: 10 sol id;
-   justify-content: space-between;
- }
+ 
  
  .socialicons{
    display: flex;
@@ -328,25 +332,4 @@ nav a {
    transition:0.5s ;
  }
  
- .footernav{
-   display: flex;
- }
  
- .footernav ul{
-   align-items:center ;
- }
- 
- .footernav ul li{
-   list-style: none;
-   color: white;
- }
- 
- .footernav ul li a{
-   color: white; font-size: 10px;  margin-right: 25px;
- }
- 
- 
- .footerbottom{
-   background-color: #fff;
-   
- }

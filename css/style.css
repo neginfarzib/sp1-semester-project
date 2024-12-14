@@ -22,7 +22,7 @@ nav a {
  nav div div a {
    line-height: 50px;  /* Match the height of the nav bar */
  }
- 
+
  nav {
    position: absolute;
    background-color: #662626;
@@ -98,7 +98,7 @@ nav a {
    background-repeat: no-repeat;
    height: 100vh;
    margin-bottom: 3%;
-   background-image: url(/assets/william-bout-264826.jpg);
+   background-image: url(assets/william-bout-264826.jpg);
 }
 .section-home-background h1 {
    margin: 0 30px; 
@@ -111,7 +111,7 @@ nav a {
    background-size: cover;
    height: 100vh;
    margin-bottom: 3%;
-   background-image: url(/assets/mammoth-1257288_1920.jpg);
+   background-image: url(assets/mammoth-1257288_1920.jpg);
 }
 .section-explore-background h1 {
    margin: 0; 
@@ -123,7 +123,7 @@ nav a {
    background-repeat: no-repeat;
    height: 100vh;
    margin-bottom: 3%;
-   background-image: url(/assets/nasa-cosmology.jpg);
+   background-image: url(assets/nasa-cosmology.jpg);
 }
 .section-exhibition-background h1 {
    margin: 0 30px; 
@@ -136,7 +136,7 @@ nav a {
    background-repeat: no-repeat;
    height: 100vh;
    margin-bottom: 3%;
-   background-image: url(/assets/exhibition-1863344_1920.jpg);
+   background-image: url(assets/exhibition-1863344_1920.jpg);
 }
 
 
@@ -146,7 +146,7 @@ nav a {
    background-repeat: no-repeat;
    height: 100vh;
    margin-bottom: 3%;
-   background-image: url(/assets/scott-webb-102825.jpg);
+   background-image: url(assets/scott-webb-102825.jpg);
 }
 .section-visit-background h1 {
    margin: 0; 

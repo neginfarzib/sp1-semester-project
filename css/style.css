@@ -267,6 +267,10 @@ nav a {
  .footr-column{
    margin: 10px;
  }
+ .opening-hours{
+   margin-left: 0 !important;
+   margin: 0 auto !important;
+ }
 
 }   
 

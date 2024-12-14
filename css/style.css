@@ -19,6 +19,10 @@ nav a {
     padding: 10px 20px;
  }
 
+ nav div div a {
+   line-height: 50px;  /* Match the height of the nav bar */
+ }
+ 
  nav {
    position: absolute;
    background-color: #662626;

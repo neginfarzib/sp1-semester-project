@@ -89,6 +89,7 @@ nav a {
  
 .section-home-background{
    background-position: center;
+   background-size: cover;
    background-repeat: no-repeat;
    height: 100vh;
    margin-bottom: 3%;
@@ -213,6 +214,11 @@ nav a {
       justify-content: center;   
    }
 
+   .row-footer{
+      flex-wrap: wrap;
+      justify-content: center;   
+   }
+
    .img-box, .p-box {
       max-width: 300px;
    }
@@ -231,6 +237,12 @@ nav a {
    section .div-event-revers{
       display: flex;
       justify-content: center;
+   }
+
+   .h1-home{
+      transform: translate(10%, 50%); 
+      font-size: x-large;
+      width: 300px;
    }
 
 }   

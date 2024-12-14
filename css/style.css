@@ -103,6 +103,7 @@ nav a {
 .section-explore-background{
    background-position: center;
    background-repeat: no-repeat;
+   background-size: cover;
    height: 100vh;
    margin-bottom: 3%;
    background-image: url(/assets/mammoth-1257288_1920.jpg);
@@ -245,6 +246,11 @@ nav a {
       width: 300px;
    }
 
+   .section-explore-background{
+      background-position: center;
+      height: 500px; 
+   }
+
 }   
 
 
@@ -310,7 +316,7 @@ nav a {
 
  .h4-box{
    display: block;
-   width: 500px; 
+   max-width: 500px; 
    margin: 30px;
    word-wrap: break-word; 
    overflow-wrap: break-word;

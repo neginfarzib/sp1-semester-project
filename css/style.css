@@ -86,11 +86,6 @@ nav a {
     
  }
 
-
- img {
-    max-width: 500px;
- }
-
  
 .section-home-background{
    background-position: center;
@@ -99,8 +94,63 @@ nav a {
    margin-bottom: 3%;
    background-image: url(/assets/william-bout-264826.jpg);
 }
+.section-home-background h1 {
+   margin: 0 30px; 
+   padding: 0;
+}
+
+.section-explore-background{
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   margin-bottom: 3%;
+   background-image: url(/assets/mammoth-1257288_1920.jpg);
+}
+.section-explore-background h1 {
+   margin: 0; 
+   padding: 0;
+}
+
+.section-exhibition-background{
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   margin-bottom: 3%;
+   background-image: url(/assets/nasa-cosmology.jpg);
+}
+.section-exhibition-background h1 {
+   margin: 0 30px; 
+   padding: 0;
+}
+
+
+.section-event-background{
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   margin-bottom: 3%;
+   background-image: url(/assets/exhibition-1863344_1920.jpg);
+}
+
+
+
+.section-visit-background{
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+   margin-bottom: 3%;
+   background-image: url(/assets/scott-webb-102825.jpg);
+}
+.section-visit-background h1 {
+   margin: 0; 
+   padding: 0;
+}
+
+
+
 
 .h1-home{
+   transform: translate(20%, 50%); 
    font-size: xx-large;
    color: #662626;
    display: block;
@@ -111,10 +161,25 @@ nav a {
    line-height: 1.5;
    font-weight: 500;
 }
+
+.h1-exhibition{
+   transform: translate(50%, 50%); 
+   font-size: x-large;
+   color: #fff;
+   display: block;
+   width: 500px; 
+   margin: 30px;
+   word-wrap: break-word; 
+   overflow-wrap: break-word;
+   line-height: 1.5;
+   font-weight: 500;
+}
+
+
 .row {
    display: flex;
    width: 70%;
-   justify-content: space-around;
+   justify-content: center;
    margin: 0 auto;
 }
 
@@ -176,6 +241,28 @@ nav a {
    line-height: 1.5;
  }
 
+ .p-biolohgy-box {
+   display: block;
+   width: 70%; 
+   margin-left: 200px;
+   word-wrap: break-word; 
+   overflow-wrap: break-word;
+   line-height: 1.5;
+ }
+
+ .p-box-visit {
+   display: block;
+   width: 800px; 
+   margin-left: 200px;
+   word-wrap: break-word; 
+   overflow-wrap: break-word;
+   line-height: 1.5;
+ }
+  .p-visit{
+      margin-left: 20px; 
+  
+  }
+
 .div-event-revers{
    display: flex;
    flex-direction: row-reverse;
@@ -184,6 +271,17 @@ nav a {
    max-width: 800px;
    margin-right: 200px;
 }
+
+.img-box-explore {
+   max-width: 800px;
+   margin-right: 200px;
+}  
+
+.img-box-biology {
+   width: 650px;
+   height: 500px;
+   margin: 20px;
+}  
 
  .h4-box{
    display: block;
@@ -208,7 +306,7 @@ nav a {
    display: flex;
    width: 100%;
    padding: 20px;
-   background-color: #3B515E;
+   background-color: #662626;
    border: 10 sol id;
    justify-content: space-between;
  }
@@ -249,5 +347,6 @@ nav a {
  
  
  .footerbottom{
-   background-color: aquamarine;
+   background-color: #fff;
+   
  }

@@ -1,6 +1,10 @@
 # Semester Project 1
 ![meuseum](https://github.com/user-attachments/assets/48e4be83-f7fe-4067-ac5a-91311efc3372)
 
+🌐 Live website
+
+https://neginfarzib.github.io/sp1-semester-project/
+
 
 
 

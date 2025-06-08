@@ -1,12 +1,13 @@
 # Semester Project 1
 ![meuseum](https://github.com/user-attachments/assets/48e4be83-f7fe-4067-ac5a-91311efc3372)
-An interactive science museum called the Community Science Museum is opening in your town/city. Its core target audience is primary and middle school children (ages 7-15) and families with young children. 
-The website should be informative and engaging, encouraging viewers to visit the museum. It should also be responsive and easy to use on various devices.
+
 
 
 
  ## Goals
- To apply and combine accumulated competence and showcase how he/she can complete larger projects, either individually or in collaboration with others. 
+ An interactive science museum called the Community Science Museum is opening in your town/city. Its core target audience is primary and middle school children (ages 7-15) and families with young children. 
+The website should be informative and engaging, encouraging viewers to visit the museum. It should also be responsive and easy to use on various devices.
+ 
 
 
 ### User stories
@@ -33,13 +34,15 @@ As the site owner, I want good SEO to rank higher in search engines and attract 
 
 As a developer, I want the GitHub repository public to allow for collaboration and code review. 
 
-
 Being able to develop static websites based on HTML and CSS. 
-
-
-## Built with  
+ 
+ 
+ ## Built with  
 - HTML
 - CSS
+
+
+
 
  ### Installing
 
